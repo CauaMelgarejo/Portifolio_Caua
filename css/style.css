@@ -188,18 +188,11 @@ body {
     display: none;
 }
 footer {
-  background-color: rgba(255, 255, 255, 0.8); /* branco com opacidade */
-  text-align: center;
-  padding: 20px;
-  color: #000; /* cor do texto */
-  transition: background-color 0.3s ease;
-  position: relative;
-  bottom: 0;
-  width: 100%;
+  background-color: rgba(255, 255, 255, 0.8); 
 }
 
 footer:hover {
-  background-color: rgba(255, 255, 255, 1); /* totalmente branco ao passar o mouse */
+  background-color: rgba(255, 255, 255, 1);
 }
 @keyframes gradient-animation {
 	0% {

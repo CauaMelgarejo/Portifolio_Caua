@@ -187,6 +187,20 @@ body {
 .projetos .btn-mostrar-projetos.remover{
     display: none;
 }
+footer {
+  background-color: rgba(255, 255, 255, 0.8); /* branco com opacidade */
+  text-align: center;
+  padding: 20px;
+  color: #000; /* cor do texto */
+  transition: background-color 0.3s ease;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+footer:hover {
+  background-color: rgba(255, 255, 255, 1); /* totalmente branco ao passar o mouse */
+}
 @keyframes gradient-animation {
 	0% {
 		background-position: 0% 50%;
